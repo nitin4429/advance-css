@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+           width:500px;
+           height:500px;
+           border:2px solid black;
+       }
+       .sub-con{
+           filter: blur(10px);
+           width:400px;
+           height:300px;
+          margin-top:40px;
+          margin-left:40px;
+          
+          border:2px solid black;
+       }
+       .sub-con:hover{
+           filter:grayscale(1);
+       }
+       img{
+           width:100%;
+           height:100%;
+       }
+       h1{
+           text-align: center;
+       }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hover to reveal the image</h1>
+        <div class="sub-con">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.9ppTJGxhac8ZJ0nDYpi0ZQHaE8&pid=Api&P=0&h=180"
+                alt="">
+        </div>
+    </div>
+</body>
+</html>

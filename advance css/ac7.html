@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100%;
+            
+        }
+        .btn{
+            text-align: center;
+            margin-top:100px;
+            animation: name duration timing-function delay iteration-count direction fill-mode;
+        }
+        
+    
+        
+        button {
+            position: absolute;
+            width: 250px;
+            height: 50px;
+            border-radius: 10px;
+            color: white;
+            background-image: linear-gradient(to left, #2d20eb, #6e93e9);
+            animation:move 1s ease-in-out 0s 100 alternate;
+        }
+        @keyframes move{
+            from{
+                top:90px
+            }
+            to{
+                top:130px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="btn">
+            <button >Click Me To Visit PW Skills</button>
+        </div>
+    </div>
+</body>
+
+</html>
